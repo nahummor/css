@@ -1,0 +1,25 @@
+body{
+  margin: 0;
+}
+
+/* id selector */
+#product-overview{
+  background: #ff1b68;
+  padding: 20px;
+  border: 5px black solid;
+  margin: 20px;
+  width: 50%;
+  height: 200px;
+}
+
+/* tag selector */
+/* select all h1 inside product-overview id*/
+#product-overview h1{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* class selector */
+.section-title{
+  color:#2ddf5c;
+}

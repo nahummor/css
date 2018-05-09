@@ -1,0 +1,43 @@
+
+.container{
+  background: rgb(236, 227, 227);
+  display: grid;
+  grid-template-columns: 55% 25% 20%;
+  grid-template-rows: 15rem 20rem 15rem;
+}
+
+.item{
+ 
+}
+
+.item-1{
+  background: #E0E0E0;
+}
+
+.item-2{
+  background: #FFCC80;
+}
+
+.item-3{
+  background: #AED581;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.item-4{
+  background: #4FC3F7;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.item-5{
+  background: #F48FB1;
+}
+
+.item-6{
+  background: rgb(205, 209, 148);
+}
