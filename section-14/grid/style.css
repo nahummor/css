@@ -3,12 +3,12 @@
   background: rgb(236, 227, 227);
   display: grid;
   grid-template-columns: 55% 25% 20%;
-  grid-template-rows: 15rem 20rem 15rem;
+  grid-template-rows: 15rem 20rem 15rem 5rem;
 }
 
-.item{
+/* .item{
  
-}
+} */
 
 .item-1{
   background: #E0E0E0;
@@ -31,7 +31,7 @@
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 5;
+  grid-row-end: 4;
 }
 
 .item-5{
@@ -40,4 +40,10 @@
 
 .item-6{
   background: rgb(205, 209, 148);
+}
+
+.item-7{
+  background: rgb(121, 78, 156);
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
