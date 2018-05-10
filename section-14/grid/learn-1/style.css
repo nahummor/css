@@ -11,6 +11,7 @@ body{
   background: #c8d6e5;
   display: grid;
   grid-template-columns: 75% 25%;
+  grid-template-rows: 4rem auto 4rem;
 }
 
 header{
