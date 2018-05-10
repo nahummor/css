@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  height: calc(100%-1rem);
+  background: #c8d6e5;
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
+header{
+  background: #81c784;
+  grid-column: span 2;
+}
+
+aside{
+  background: #ba68c8;
+}
+
+main{
+  background: #64b5f6;
+}
+
+footer{
+  background: #4db6ac;
+  grid-column: span 2;
+}
