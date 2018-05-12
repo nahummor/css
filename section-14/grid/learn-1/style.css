@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine:400,700');
+
 *{
   box-sizing: border-box;
 }
@@ -7,11 +9,13 @@ html{
 }
 
 body{
-  height: calc(100%-1rem);
-  background: #c8d6e5;
+  height: calc(100% - 1rem);
+  background: #E0F2F1;
+
   display: grid;
-  grid-template-columns: 75% 25%;
+  grid-template-columns: 5fr 1fr;
   grid-template-rows: 4rem auto 4rem;
+  grid-gap: 0.5rem;
 }
 
 header{
@@ -24,10 +28,85 @@ aside{
 }
 
 main{
-  background: #64b5f6;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* background: #64b5f6; */
 }
 
 footer{
   background: #4db6ac;
   grid-column: span 2;
+}
+
+.form-addWorker{
+  /* direction: rtl; */
+  display: grid;
+  grid-template-columns: 20rem 8rem;
+  grid-gap: 0.5rem;
+  background: #55efc4;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+ h2{
+  font-family: 'Cousine', monospace;
+  text-align: center;
+  color: #0e4f1f;
+  text-shadow: 2px 2px 7px rgb(185,180,180);
+}
+
+.form-addWorker label{
+  font-family: 'Cousine', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: right;
+}
+
+.form-addWorker input, 
+.form-addWorker textarea{
+  font-family: 'Cousine', monospace;
+  font-size: 1.5rem;
+  text-align: right;
+  resize: none;
+}
+
+.form-addWorker input:focus ,
+.form-addWorker textarea:focus{
+  outline: none;
+  background-color: #d8f3df;
+  border-color: #2ddf5c;
+}
+
+.form-addWorker button{
+  background: #00b894;
+  width: 50%;
+  font-family: 'Cousine', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-addWorker button:hover{
+  background: #00cec9;
+}
+
+.worker-panel{
+  background: #C5CAE9;
+  width: 50rem;
+  height: 15rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.panel{
+  background: #2ddf5c;
+  width: 10rem;
+  margin: 0.5rem;;
 }
