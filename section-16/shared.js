@@ -25,14 +25,11 @@ if (noButton) {
 }
 
 backdrop.addEventListener('click', () => {
-  // mobileNav.style.display = "none";
   mobileNav.classList.remove('open');
   colseModal();
 });
 
 function colseModal() {
-  // backdrop.style.display = "none";
-  // modal.style.display = "none";
   if (modal) {
     modal.classList.remove('open');
   }
@@ -43,8 +40,6 @@ function colseModal() {
 }
 
 toggleButton.addEventListener('click', () => {
-  // mobileNav.style.display = "block";
-  // backdrop.style.display = "block";
   mobileNav.classList.add('open');
   backdrop.style.display = "block";
   setTimeout(() => {
